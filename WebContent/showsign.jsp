@@ -10,12 +10,12 @@
      <h1>用户登录</h1>
      <br>
         
-     <form action="main" method="get">
+     <form action="sign" method="get">
 		<h2></h2>
-		<input name="name" type="text" placeholder="账号" size="22"required />
-		<input name="name" type="text" placeholder="密码" size="22"required />
+		<input name="ID" type="text" placeholder="账号" size="22"required />
+		<input name="password" type="text" placeholder="密码" size="22"required />
 				
-		<input type="submit" value="确认" />		
+		<input type="submit" value="确认"/>		
 		</form>
 		
 	<input type="submit" value="返回" onclick="javascript :history.back(-1);">

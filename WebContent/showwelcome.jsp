@@ -8,8 +8,9 @@
 </head>
 <body>
      <h1>欢迎来到学术师承树</h1>
-     <a href=sign><button type="button">用户登录</button></a>
-     <a href=monitersign><button type="button">管理员登录</button></a>
+     <a href=write><button type="button">用户注册</button></a>
+     <input type="button" onclick="window.location='showsign.jsp'" value="用户登录">
+     <input type="button" onclick="window.location='showmoniter.jsp'" value="管理员登录">
      <a href=search><button type="button">免登陆</button></a>
 </body>
 </html>

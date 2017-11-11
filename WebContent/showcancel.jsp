@@ -4,11 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>失败</title>
+<title>注销用户</title>
 </head>
 <body>
-     <h1>失败</h1>
-     
-     <input type="submit" value="返回" onclick="javascript :history.back(-1);">	
+    <form action="cancel" method="get">
+		<input name="ID" type="text" placeholder="输入你要注销的用户" size="22"required />
+				
+		<input type="submit" value="确认" />		
+	</form>
+	
+   <input type="submit" value="返回" onclick="javascript :history.back(-1);">
 </body>
 </html>

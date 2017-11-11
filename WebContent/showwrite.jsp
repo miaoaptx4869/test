@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>管理员登录</title>
+<title>用户注册</title>
 </head>
 <body>
-     <h1>管理员登录</h1>
-     <form action="monitersign" method="get">
+     <h1>用户注册</h1>
+     <form action="main" method="get">
 		<h2></h2>
-		<input name="ID" type="text" placeholder="账号" size="22"required />
-		<input name="password" type="text" placeholder="密码" size="22"required />
+		<input name="name" type="text" placeholder="账号" size="22"required />
+		<input name="name" type="text" placeholder="密码" size="22"required />
 				
 		<input type="submit" value="确认" />		
 		</form>

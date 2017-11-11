@@ -10,12 +10,29 @@
              <result name="FALSE">/false.jsp</result>
         </action>
         <action name="sign" class="com.struts.trio.HelloAction" method="tosign">
-             <result name="SUCCESS">/showsign.jsp</result>
+             <result name="SUCCESS">/showmain.jsp</result>
              <result name="FALSE">/false.jsp</result>
         </action>
         <action name="monitersign" class="com.struts.trio.HelloAction" method="tomoniter">
-             <result name="SUCCESS">/showmoniter.jsp</result>
+             <result name="SUCCESS">/showmonitermain.jsp</result>
              <result name="FALSE">/false.jsp</result>
+        </action>
+        <action name="write" class="com.struts.trio.HelloAction" method="towrite">
+             <result name="SUCCESS">/showwrite.jsp</result>
+             <result name="FALSE">/false.jsp</result>
+        </action>
+        <action name="monitermain" class="com.struts.trio.HelloAction" method="tomonitermain">
+             <result name="SUCCESS">/showmonitermain.jsp</result>
+             <result name="FALASE">/false.jsp</result>
+        </action>
+        <action name="cancel" class="com.struts.trio.HelloAction" method="tocancel">
+             <result name="input"></result>
+             <result name="SUCCESS">/success.jsp</result>
+             <result name="FALASE">/false.jsp</result>
+        </action>
+        <action name="users" class="com.struts.trio.HelloAction" method="tousers">
+             <result name="SUCCESS">/showusers.jsp</result>
+             <result name="FALASE">/false.jsp</result>
         </action>
         <action name="main" class="com.struts.trio.HelloAction" method="tomain">
              <result name="SUCCESS">/showmain.jsp</result>

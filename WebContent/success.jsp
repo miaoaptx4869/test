@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>失败</title>
+<title>成功</title>
 </head>
 <body>
-     <h1>失败</h1>
+     <h1>成功</h1>
      
-     <input type="submit" value="返回" onclick="javascript :history.back(-1);">	
+     <input type="submit" value="返回" onclick="javascript :history.back(-1);">
 </body>
 </html>
