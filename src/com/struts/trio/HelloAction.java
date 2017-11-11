@@ -114,10 +114,11 @@ public class HelloAction{
 	
 	public String tocancel() {
 		System.out.println(ID);
-		String sql = "delete from Book where ID=" + "'" + this.ID + "'";
+		String sql = "delete from moniter where ID=" + "'" + this.ID + "'";
 		System.out.println(this.ID);
 		connect newc = new connect();
 		int result = newc.delete(sql);
+		System.out.println(result);
 		if (result == 0) {
 			return "FALSE";
 		} else {

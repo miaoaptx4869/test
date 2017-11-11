@@ -60,6 +60,7 @@ public class connect {
 	public int delete(String sql) {
 		int lineNum = 0;
 		try {
+			System.out.println(sql);
 			Statement stmt = connection.createStatement();
 			lineNum = stmt.executeUpdate(sql);
 		} catch (SQLException e) {

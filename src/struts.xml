@@ -23,76 +23,75 @@
         </action>
         <action name="monitermain" class="com.struts.trio.HelloAction" method="tomonitermain">
              <result name="SUCCESS">/showmonitermain.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="cancel" class="com.struts.trio.HelloAction" method="tocancel">
-             <result name="input"></result>
              <result name="SUCCESS">/success.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="users" class="com.struts.trio.HelloAction" method="tousers">
              <result name="SUCCESS">/showusers.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="main" class="com.struts.trio.HelloAction" method="tomain">
              <result name="SUCCESS">/showmain.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="create" class="com.struts.trio.HelloAction" method="tocreate">
              <result name="SUCCESS">/showcreate.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="change" class="com.struts.trio.HelloAction" method="tochange">
              <result name="SUCCESS">/showchange.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="search" class="com.struts.trio.HelloAction" method="tosearch">
              <result name="SUCCESS">/showsearch.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="add" class="com.struts.trio.HelloAction" method="toadd">
              <result name="SUCCESS">/showadd.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="delete" class="com.struts.trio.HelloAction" method="todelete">
              <result name="SUCCESS">/showdelete.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="update" class="com.struts.trio.HelloAction" method="toupdate">
              <result name="SUCCESS">/showupdate.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="updateme" class="com.struts.trio.HelloAction" method="tome">
              <result name="SUCCESS">/showme.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="updateother" class="com.struts.trio.HelloAction" method="toother">
              <result name="SUCCESS">/showother.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="updatename" class="com.struts.trio.HelloAction" method="toname">
              <result name="SUCCESS">/showname.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="updatetime" class="com.struts.trio.HelloAction" method="totime">
              <result name="SUCCESS">/showtime.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="updaterelation" class="com.struts.trio.HelloAction" method="torelation">
              <result name="SUCCESS">/showrelation.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="merge" class="com.struts.trio.HelloAction" method="tomerge">
              <result name="SUCCESS">/showmerge.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="result" class="com.struts.trio.HelloAction" method="toresult">
              <result name="SUCCESS">/result.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
         <action name="return" class="com.struts.trio.HelloAction" method="tohome">
              <result name="SUCCESS">/showmain.jsp</result>
-             <result name="FALASE">/false.jsp</result>
+             <result name="FALSE">/false.jsp</result>
         </action>
      </package>
         

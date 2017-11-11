@@ -10,7 +10,8 @@
     <a href=create><button type="button">创建学术师承树</button></a>
      <a href=change><button type="button">更改学术师承树</button></a>
      <a href=search><button type="button">搜索学术师承树</button></a>
-     <input type="button" onclick="window.location='showcancel.jsp'" value="注销用户">
+     <!--  <a href=cancel><button type="button">注销用户</button></a>-->
+     <input type="button" onclick="window.location='showcancel.jsp'" value="zhuxiaoyonghu"> 
      <a href=users><button type="button">显示用户</button></a>
 
      <input type="submit" value="返回" onclick="javascript :history.back(-1);">
